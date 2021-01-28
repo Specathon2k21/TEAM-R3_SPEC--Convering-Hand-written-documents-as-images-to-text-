@@ -1,13 +1,13 @@
 
 const multer=require("multer");
 
-const maxSize = 1 * 1000 * 2000;
+const maxSize = 1 * 1000 * 22000;
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, "./upload/image")
   },
   filename: (req, file, cb) => {
-    cb(null,  file.originalname.split(".")[0]+".png")
+    cb(null,  file.originalname)
   },
 })
 

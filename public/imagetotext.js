@@ -72,6 +72,7 @@ convert.addEventListener("click",(e)=>{
    axios.post("https://revanth-kumar-1.paiza-user-free.cloud:3000/getText",formData).then((data)=>{
        
        console.log("done successfully");
+       
    }).catch((err)=>{
        console.log("eeror in save click",err);
    })

@@ -44,3 +44,25 @@ clear
 npm start
 clear
 npm start
+git add .
+git commit -m "second"
+git push -u origin master
+clear
+source <(egrep -v 'declare -x TMUX|declare -.?r ' /home/ubuntu/.tmux/sessions-old/2s3yx5bvf5t/vars.txt) && cd ${PWD}
+clear
+clea
+rclear
+clear
+npm start
+clear
+npm start
+clear
+npm start
+clear
+npm start
+clear
+npm start
+clear
+source <(egrep -v 'declare -x TMUX|declare -.?r ' /home/ubuntu/.tmux/sessions-old/2s3yx5bvf5t/vars.txt) && cd ${PWD}
+npm start
+clear
